@@ -8,8 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		 plugin = {"json:src/test/java/package1/output/cucumber.json"}
-		 )
+		 plugin = {"json:src/test/java/package1/output/cucumber.json"})
 
 public class runcalc {
 	
